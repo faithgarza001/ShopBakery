@@ -1,0 +1,14 @@
+﻿@model DemoShopCafe.ViewModels.PieListViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>@Model.CurrentCategory</h1>
+@foreach (var pie in Model.Pies)
+{
+    <li>@pie.Name</li>
+    <li>@pie.Price.ToString("c")</li>
+    <li>@pie.Category.CategoryName</li>
+
+}
