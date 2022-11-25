@@ -13,5 +13,11 @@
   <ItemGroup>
     <Folder Include="Views\Pie\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Images\Contact\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\" />
+    <Content Remove="wwwroot\Images\Contact\" />
   </ItemGroup>
 </Project>
